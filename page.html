@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Divine Sarees</title>
+    <style>
+        body {
+            background-color: #f4f4f4;
+            text-align: center;
+            font-family: Arial;
+        }
+        h1 {
+            color: darkblue;
+        }
+        .product {
+            background-color: white;
+            width: 200px;
+            margin: 20px auto;
+            padding: 15px;
+            border: 1px solid gray;
+        }
+        img {
+            width: 200px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: blue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Divine Sarees</h1>
+    <p>“Hurry! Your dream saree is waiting.”</p>
+
+    <div class="product">
+        <img src="saree.jpg" alt="My Saree">
+        <br><br>
+        <button onclick="showMessage()">Buy Now</button>
+    </div>
+
+    <script>
+        function showMessage() {
+            alert("Thank you for choosing Divine Sarees!");
+        }
+    </script>
+</body>
+</html>
